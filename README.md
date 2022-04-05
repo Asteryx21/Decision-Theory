@@ -1,30 +1,28 @@
 # Decision-Theory (Movie Recommendation System)
 
-Ο σκοπός αυτής της άσκησης είναι η δημιουργία ενός συστήματος που να προτείνει ταινίες στους χρήστες σύμφωνα με τις ταινίες που έχουν
-παρακολουθήσει και τις αξιολογήσεις που έχουν κάνει. Επιπλέον γίνεται ανάλυση δεδομένων από την οποία θα προκύψει εξαγωγή πληροφοριών 
-και οπτικοποίηση αυτών.
+Developed a system that suggests movies to users based on the movies they have watched and the ratings they have made. In addition, data is analyzed from which information was extracted and visualized. 
 
-Αρχικά Datasets: users.csv, movies.csv, ratings.csv
+Initial Datasets: users.csv, movies.csv, ratings.csv
 
-Τα νέα αρχεία dataset fixed_ratings, fixed_users, fixed_movies κατασκευάστηκαν για την εξυπηρέτηση της ανάλυσης δεδομένων που γίνεται στο showtime.py
+New dataset fixed_ratings, fixed_users, fixed_movies were built to serve the data analysis done in showtime.py
 
-Περιγραφή αρχείων του Project:
+Project files description:
 
-user_based_collaborative_filtering -> σύστημα πρότασης ταινιών (2 σεναρίων)
+user_based_collaborative_filtering -> movie suggestion system (2 scripts)
 
-demographics -> επεξεργασία δεδομένων των datasets για εξαγωγή πληροφοριών
+demographics ->  data processing of datasets for information retrieval.
 
-showtime -> ανάλυση δεδομένων για οπτικοποίηση δεδομένων και παραγωγή στατιστικών
+showtime -> data analysis for data visualization and production of statistics.
 
-Προτεινόμενη σειρά εκτέλεσης: 
+Suggested execution order:
 
 1. user_based_colabborative_filtering
 2. demographics
 3. showtime
 
-Υπάρχει εκτενής σχολιασμός σε όλα τα αρχεία κώδικα. 
+There is extensive commentary on all code files.
 
-Βιβλιοθήκες που χρησιμοποιούνται στο Project:
+Libraries used in the Project:
 
 sys
 csv
